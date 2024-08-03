@@ -1,0 +1,51 @@
+.button__link {
+    display: flex;
+    height: 90px;
+    width: 450px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 3.2rem;
+    font-weight: 900;
+    align-items: center;
+    column-gap: 20px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    &--html {
+        background-color: #E93E30;
+    }
+    &--js {
+        background-color: #F7E018;
+    
+    }
+    &--CSS {
+        background-color: #299ED5 ;
+    }
+    &--React {
+        background-color: #292C33 ;
+    }
+    &--vue {
+        background-color: #67C770;
+    }
+    &--Bootstrap {
+        background-color: #563D7C;
+    }
+    
+}
+.button__img {
+    height: 80px;
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+
+&__txt {
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+}
+}
+
+

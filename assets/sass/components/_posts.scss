@@ -1,0 +1,38 @@
+.post__column--big {
+    width: 60%;
+}
+
+
+.post__column--small {
+    width: 36%;
+
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.post__small {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px;
+
+
+
+}
+.column__posts {
+    display: flex;
+    flex-wrap: wrap;
+   
+    gap: 25px;
+}
+.post__medium {
+    width: 250px;
+    height: 350px;
+}
+
+.column__links {
+    width: 28%;
+}

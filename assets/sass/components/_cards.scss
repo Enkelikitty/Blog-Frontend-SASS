@@ -1,0 +1,86 @@
+.cards__image {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+&--medium {
+    width: 250px;
+    height: 150px;
+}
+&--small {
+
+    width: 190px;
+    height: 150px;
+    object-fit: cover;
+
+}
+}
+
+.cards__date {
+    font-weight: 300;
+    font-size: 1.8rem;
+&--medium {
+    font-size: 1.6rem;
+}
+&--small {
+    font-size: 1.6rem;
+
+}
+}
+
+.cards__title {
+    width: 610px;
+    font-weight: 700;
+    font-size: 2.4rem;
+&--medium {
+    font-size: 2rem;
+    width: 100%;
+}
+&.--small {
+    font-size: 2rem;
+
+}
+}
+.cards-img__logo {
+    display: inline-block;
+    width: 40px;
+    border-radius: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+&--small {
+    width: 35px;
+    height: 35px;
+}
+
+}
+
+.cards__author--txt {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 1.8rem;
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+.cards__author--small {
+    max-width: 200px;
+
+}
+
+
+
+.cards__author--txt--small {
+    font-size: 1.6rem;
+}
+
+
+
+
